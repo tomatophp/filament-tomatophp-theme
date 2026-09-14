@@ -1,3 +1,8 @@
+### V5.0.1
+
+- style dropdowns (user menu, action groups, filters) with the theme surface, hairlines and square corners
+- hatched theme switcher with a brand-colored active mode
+
 ### V5.0.0
 
 - first release for Filament 5 (Laravel 12 and 13)

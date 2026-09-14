@@ -15,6 +15,8 @@ No build step: the theme ships plain CSS through Filament's asset system and is 
 
 ![Login dark](https://raw.githubusercontent.com/tomatophp/filament-tomatophp-theme/master/arts/login-dark.png)
 ![Login light](https://raw.githubusercontent.com/tomatophp/filament-tomatophp-theme/master/arts/login-light.png)
+![User menu dark](https://raw.githubusercontent.com/tomatophp/filament-tomatophp-theme/master/arts/user-menu-dark.png)
+![User menu light](https://raw.githubusercontent.com/tomatophp/filament-tomatophp-theme/master/arts/user-menu-light.png)
 
 ## Requirements
 
