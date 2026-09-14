@@ -1,0 +1,66 @@
+{
+    "name": "tomatophp/filament-tomatophp-theme",
+    "type": "library",
+    "description": "The TomatoPHP brand theme for FilamentPHP panels: the TomatoPHP mark, brand colors and screen-line styling",
+    "keywords": [
+        "php",
+        "laravel",
+        "filament",
+        "filamentphp",
+        "filament-plugin",
+        "theme",
+        "tomatophp"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\FilamentTomatoPHPTheme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TomatoPHP\\FilamentTomatoPHPTheme\\Tests\\": "tests/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\FilamentTomatoPHPTheme\\FilamentTomatoPHPThemeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse src --level=5",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^5.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.24",
+        "nunomaduro/collision": "^8.6",
+        "orchestra/testbench": "^10.0|^11.0",
+        "pestphp/pest": "^4.0|^5.0",
+        "pestphp/pest-plugin-laravel": "^4.0|^5.0",
+        "pestphp/pest-plugin-livewire": "^4.0|^5.0",
+        "phpstan/extension-installer": "^1.4"
+    },
+    "version": "5.0.0"
+}
